@@ -1,0 +1,120 @@
+.about {
+    position: relative;
+    padding-bottom: 100px;
+
+    .about-txt {
+        h6 {
+            color: #fff;
+            font-family: Conthrax, sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 100px;
+            display: inline-block;
+            margin-bottom: 22px;
+            padding: 7px 14px;
+
+            span {
+                color: transparent;
+                background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+                background-clip: text;
+            }
+        }
+
+        h3 {
+            color: #fff;
+            font-family: Conthrax, sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            font-size: 50px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            color: #ffffff;
+            font-family: "Readex Pro", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        span {
+            background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+            border-radius: 10px;
+            color: #fff;
+            padding: 14px 24px;
+        }
+    }
+
+    .images {
+        position: relative;
+
+        .square1 {
+            width: 100%;
+            height: 555px;
+            top: 47px;
+            left: 14%;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 130px;
+            z-index: 3;
+            position: absolute;
+            transform: rotate(7deg);
+        }
+
+        .img1 {
+            border-radius: 110px;
+            margin: 60px 0 0 0;
+            object-fit: cover;
+            position: relative;
+            width: 100%;
+            height: 530px;
+            z-index: 3;
+        }
+
+        .img2 {
+            border-radius: 20%;
+            position: absolute;
+            width: 20%;
+            height: 13vh;
+            left: -160px;
+            object-fit: cover;
+            top: 230px;
+            animation: animate-2 10s linear 0s infinite;
+        }
+
+        .img3 {
+            border-radius: 20%;
+            position: absolute;
+            width: 35%;
+            height: 22vh;
+            left: -108px;
+            bottom: -93px;
+            object-fit: cover;
+            animation: animate-3 10s linear 0s infinite;
+        }
+
+        .img4 {
+            border-radius: 20%;
+            position: absolute;
+            width: 10%;
+            height: 7vh;
+            left: 129px;
+            bottom: -89px;
+            object-fit: cover;
+            animation: animate-4 10s linear 0s infinite;
+        }
+
+        .img5 {
+            border-radius: 20%;
+            position: absolute;
+            bottom: -162px;
+            width: 40%;
+            height: 25vh;
+            object-fit: cover;
+            right: 75px;
+            z-index: 4;
+            animation: animate-1 10s linear 0s infinite;
+        }
+    }
+
+}

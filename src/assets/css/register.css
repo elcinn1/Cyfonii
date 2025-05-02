@@ -1,0 +1,66 @@
+
+.register {
+  form {
+      background-color: rgb(25, 30, 79, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 25px;
+      padding: 50px;
+  }
+
+  label {
+      color: #fff;
+      font-size: 14px;
+      font-family: "Readex Pro", sans-serif;
+      font-weight: 700;
+      margin-bottom: 7px;
+  }
+
+  input {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      width: 100%;
+      box-shadow: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+  }
+
+  input:focus {
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .submit {
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      width: 100%;
+      padding: 10px 20px;
+      border-radius: 27px;
+      font-weight: 700;
+      font-family: "Readex Pro", sans-serif;
+      transition: all ease 0.5s;
+  }
+
+  a {
+      text-decoration: none;
+      color: #c2c3c5;
+      font-weight: 300;
+      font-size: 12px;
+      font-family: "Readex Pro", sans-serif;
+      transition: all ease 0.5s;
+  }
+
+  .submit:hover {
+      background-color: #5142fc;
+      border: 2px solid #5142fc;
+  }
+
+}

@@ -1,0 +1,196 @@
+
+
+.nft-item:hover {
+  transform: translateY(-10px);
+  .image {
+      img {
+          scale: 1.1;
+      }
+  }
+
+}
+.price-right {
+  a {
+      text-decoration: none;
+      cursor: pointer;
+
+      span {
+          padding: 10px 20px;
+          background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+          border-radius: 10px;
+          color: #fff;
+          align-items: center;
+          font-weight: 700;
+          font-family: Conthrax, sans-serif;
+          font-size: 15px;
+      }
+  }
+}
+.nfts {
+  input {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      width: 40%;
+      box-shadow: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+  }
+}
+
+.nft-item {
+  background: rgb(40, 43, 70);
+  border-radius: 24px;
+  padding: 14px 14px 8px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  .image {
+      height: 275px;
+      margin-bottom: 23px;
+      width: 100%;
+      border-radius: 25px;
+      overflow: hidden;
+
+      img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          transition: 0.3s ease-in-out;
+          border-radius: 25px;
+      }
+
+      img:hover {
+          scale: 1.1;
+      }
+  }
+
+  .nft-title {
+      a {
+          text-decoration: none;
+          color: #fff;
+          font-family: Conthrax, sans-serif;
+          font-weight: 700;
+          line-height: 1.2;
+          margin-bottom: 14px;
+          transition: all .3s ease-in-out;
+          cursor: pointer;
+      }
+
+  }
+
+  .nft-title a:hover {
+      color: #5c27fe;
+  }
+
+  .nft-info {
+      margin-bottom: 13px;
+
+      .info-left {
+          display: flex;
+          align-items: center;
+
+          .img {
+              margin-right: 11px;
+
+              img {
+                  width: 37px;
+                  height: 37px;
+                  border-radius: 50%;
+
+              }
+          }
+
+          .content {
+              span {
+                  color: #ffffff4c;
+                  font-size: 12px;
+                  font-family: "Readex Pro", sans-serif;
+
+              }
+
+              h6 {
+                  color: #ffffff;
+                  font-size: 14px;
+                  font-family: Conthrax, sans-serif;
+              }
+          }
+      }
+
+      .info-right {
+          .wishlist-btn {
+              text-decoration: none;
+              align-items: center;
+              color: rgb(255, 255, 255);
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+              i {
+                  font-size: 17px;
+              }
+          }
+      }
+  }
+
+
+
+  .nft-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+      .nft-price {
+          margin-top: 13px;
+
+          .price-left {
+              display: flex;
+              align-items: center;
+
+              .icon {
+
+                  i {
+                      font-size: 20px;
+                      color: #fff;
+                      margin-right: 11px;
+                  }
+
+              }
+
+              .content {
+                  span {
+                      color: #ffffff4c;
+                      font-size: 12px;
+                      font-family: "Readex Pro", sans-serif;
+
+                  }
+
+                  h6 {
+                      color: #ffffff;
+                      font-size: 14px;
+                      font-family: Conthrax, sans-serif;
+                  }
+              }
+          }
+
+          .price-right {
+
+              a {
+                  text-decoration: none;
+
+                  span {
+                      padding: 10px 20px;
+                      background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+                      border-radius: 10px;
+                      color: #fff;
+                      align-items: center;
+                      font-weight: 700;
+                      font-family: Conthrax, sans-serif;
+                      font-size: 15px;
+                  }
+              }
+          }
+      }
+
+  }
+}

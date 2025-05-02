@@ -1,0 +1,24 @@
+.payment {
+    height: 60vh;
+
+    img {
+        width: 10%;
+        height: auto;
+    }
+
+    h3 {
+        color: #fff;
+        font-family: Conthrax, sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: 'Readex Pro', sans-serif;
+        color: #c2c3c5;
+        font-size: 18px;
+        font-weight: 300;
+    }
+}

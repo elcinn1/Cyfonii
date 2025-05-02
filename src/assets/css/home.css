@@ -1,0 +1,178 @@
+.home {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+
+    .background-light {
+        background: radial-gradient(35% 35% at 50% 50%, #725bda 0, rgba(6, 19, 45, 0) 100%);
+        opacity: .4;
+        position: absolute;
+        height: 2000px;
+        width: 2000px;
+        top: -75%;
+        right: -60%;
+        z-index: -1;
+    }
+
+    .background-light.dark {
+        background: radial-gradient(35% 35% at 50% 50%, #241a55   0, rgba(6, 19, 45, 0) 100%);
+    }
+}
+
+
+.banner-left {
+    position: relative;
+
+    .banner-txt {
+        font-size: 60px;
+        color: #fff;
+        font-family: Conthrax, sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+
+    .s1 {
+        color: transparent;
+        background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+        background-clip: text;
+        position: relative;
+
+        .s1-img {
+            position: absolute;
+            left: -63px;
+            bottom: -57px;
+            width: 80%;
+        }
+    }
+
+    .banner-desc {
+        font-size: 16px;
+        font-family: "Readex Pro", sans-serif;
+        font-weight: 300;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    .home-btn {
+        background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+        border-radius: 10px;
+        color: #fff;
+        padding: 18px 56px;
+    }
+}
+
+.banner-bot {
+    margin-top: 30px;
+
+    h6 {
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-family: Conthrax, sans-serif;
+        font-weight: 700;
+    }
+}
+
+.banner-right {
+    position: relative;
+
+    .image {
+        position: relative;
+        width: 100%;
+
+        img {
+            border-radius: 130px;
+            position: relative;
+            z-index: 4;
+            width: 565px;
+            height: 705px;
+            box-shadow: 0 16px 36px rgba(0, 0, 0, .25);
+        }
+
+        .square1 {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 130px;
+            z-index: 3;
+            width: 565px;
+            height: 705px;
+            position: absolute;
+            transform: rotate(-7deg);
+        }
+
+        .square2 {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 130px;
+            z-index: 3;
+            width: 565px;
+            height: 705px;
+            position: absolute;
+            transform: rotate(-17deg);
+        }
+    }
+
+    .price {
+        background: #fff;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        top: 135px;
+        right: 0%;
+        border-radius: 30px;
+        z-index: 6;
+        animation: animate-5 15s linear 0s infinite;
+
+        span {
+            font-size: 14px;
+            color: #000;
+            font-family: "Readex Pro", sans-serif;
+            font-weight: 300;
+        }
+
+        h5 {
+            font-family: Conthrax, sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #000;
+        }
+    }
+
+    .creater {
+        background: #fff;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        top: 70%;
+        left: -10%;
+        border-radius: 30px;
+        z-index: 6;
+        animation: animate-2 10s linear 0s infinite;
+
+        .img {
+            img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+        }
+
+        .content {
+            span {
+                font-size: 14px;
+                color: #000;
+                font-family: "Readex Pro", sans-serif;
+                font-weight: 300;
+            }
+
+            h5 {
+                font-family: Conthrax, sans-serif;
+                font-weight: 700;
+                line-height: 1.2;
+                color: #000;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

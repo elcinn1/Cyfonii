@@ -1,0 +1,102 @@
+.collection {
+ padding-bottom: 30px;
+  .collection-txt {
+      h6 {
+          color: #fff;
+          font-family: Conthrax, sans-serif;
+          font-weight: 700;
+          line-height: 1.2;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 100px;
+          display: inline-block;
+          margin-bottom: 22px;
+          padding: 7px 14px;
+
+          span {
+              color: transparent;
+              background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+              background-clip: text;
+          }
+      }
+
+      h3 {
+          color: #fff;
+          font-family: Conthrax, sans-serif;
+          font-weight: 700;
+          line-height: 1.2;
+          font-size: 50px;
+          margin-bottom: 25px;
+      }
+  }
+
+  .collection-slider {
+      .slide-box {
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 25px;
+          padding: 20px;
+          margin-bottom: 25px;
+          display: flex;
+          justify-content: center;
+
+          .content {
+              border-radius: 15px;
+              backdrop-filter: blur(4px);
+              background-color: rgba(255, 255, 255, 0.1);
+              position: absolute;
+              padding: 15px;
+              text-align: center;
+              bottom: 80px;
+
+              .content-txt {
+                  text-decoration: none;
+                  color: #fff;
+                  font-family: Conthrax, sans-serif;
+                  font-weight: 700;
+                  line-height: 1.2;
+                  font-size: 20px;
+                  transition: all .5s ease-in-out;
+              }
+
+              .content-txt:hover {
+                  color: #5c27fe;
+              }
+          }
+
+          .img {
+              border-radius: 20px;
+              height: 375px;
+              width: 100%;
+              overflow: hidden;
+
+              img {
+                  height: 100%;
+                  object-fit: cover;
+                  transition: all .5s ease-in-out;
+                  width: 100%;
+              }
+
+              img:hover {
+                  transform: scale(1.1);
+              }
+
+              a {
+                  width: 100%;
+                  height: 100%;
+              }
+          }
+
+      }
+
+      .slick-dots li button:before {
+          font-size: 10px;
+          color: rgb(255 255 255 / 50%)
+      }
+
+      .slick-slide div {
+          margin: 0 4px;
+      }
+
+  }
+}

@@ -1,0 +1,104 @@
+.aboutDetails {
+  position: relative;
+  padding-bottom: 100px;
+  background: url(img/bg-banner1.png) no-repeat;
+
+  .about-txt {
+      h6 {
+          color: #fff;
+          font-family: Conthrax, sans-serif;
+          font-weight: 700;
+          line-height: 1.2;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 100px;
+          display: inline-block;
+          margin-bottom: 22px;
+          padding: 7px 14px;
+
+          span {
+              color: transparent;
+              background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+              background-clip: text;
+          }
+      }
+
+      h3 {
+          color: #fff;
+          font-family: Conthrax, sans-serif;
+          font-weight: 700;
+          line-height: 1.2;
+          font-size: 50px;
+          margin-bottom: 25px;
+      }
+
+      p {
+          color: #ffffff;
+          font-family: "Readex Pro", sans-serif;
+          font-size: 14px;
+          font-weight: 300;
+      }
+
+      span {
+          background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+          border-radius: 10px;
+          color: #fff;
+          padding: 14px 24px;
+      }
+
+      img {
+          width: 100%;
+      }
+  }
+}
+.stats {
+  position: relative;
+
+  .stats-body {
+      border-radius: 26px;
+      padding: 37px 43px;
+      position: relative;
+      background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%),
+          linear-gradient(89.96deg, rgb(255 255 255 / 5%) .03%, rgb(255 255 255 / 1%) 49.67%, rgb(255 255 255 / 5%) 99.96%);
+  }
+
+  h4 {
+      color: #fff;
+      font-family: Conthrax, sans-serif;
+      font-weight: 700;
+      line-height: 1.2;
+      font-size: 40px;
+  }
+
+  p {
+      color: #ffffff;
+      font-family: "Readex Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+  }
+
+  .icons {
+      border-radius: 50%;
+      display: flex;
+      background: linear-gradient(180deg, #fff, rgb(255 255 255 / 50%));
+      justify-content: center;
+      width: 65px;
+      height: 65px;
+      padding: 10px;
+
+      i {
+          font-size: 30px;
+          color: transparent;
+          background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+          background-clip: text;
+      }
+  }
+
+  .img {
+      animation: animate-5 15s linear 0s infinite;
+      position: absolute;
+      right: 0;
+      top: -40%;
+      right: 7%;
+  }
+}

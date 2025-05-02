@@ -1,0 +1,107 @@
+.basket-card {
+    .cart {
+        transition: 0.5s ease-in-out;
+        position: relative;
+    }
+
+    .cart:hover .delete-btn {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .delete-btn {
+        margin: 14px 14px;
+        border-radius: 10px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        opacity: 0;
+        font-size: 23px;
+        visibility: hidden;
+        transition: 0.5s ease-in-out;
+    }
+
+    .cart-body:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .cart-body {
+        transition: 0.4s ease-in-out;
+        background: rgb(40, 43, 70);
+        padding: 14px 14px;
+        position: relative;
+        border-radius: 24px;
+
+        img {
+            width: 100%;
+            height: 25vh;
+            border-radius: 10px;
+
+            object-fit: cover;
+        }
+
+        .cart-txt {
+            h3 {
+                color: #fff;
+                font-family: Conthrax, sans-serif;
+                font-weight: 700;
+                line-height: 1.2;
+                font-size: 50px;
+            }
+
+            span {
+                color: #c2c3c5;
+                font-family: "Readex Pro", sans-serif;
+                font-weight: 300;
+                font-size: 15px;
+            }
+
+            h5 {
+                color: #fff;
+                font-family: Conthrax, sans-serif;
+                font-weight: 700;
+                line-height: 1.2;
+                font-size: 20px;
+            }
+        }
+
+        .owner {
+            display: flex;
+            align-items: center;
+
+            .img-pp {
+                margin-right: 11px;
+
+                img {
+                    width: 37px;
+                    height: 37px;
+                    border-radius: 50%;
+                }
+            }
+
+
+        }
+    }
+
+    .content {
+        span {
+            color: #ffffff4c;
+            font-size: 12px;
+            font-family: "Readex Pro", sans-serif;
+
+        }
+
+        h6 {
+            color: #ffffff;
+            font-size: 14px;
+            font-family: Conthrax, sans-serif;
+        }
+    }
+
+    .cart-background {
+        background-color: rgba(255, 255, 255, 0.05);
+        width: 75%;
+        padding: 24px 30px;
+        border-radius: 24px;
+    }
+}
